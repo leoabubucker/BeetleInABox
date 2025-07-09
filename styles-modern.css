@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Source Serif 4', serif;
+    color: #1a1a1a;
+    background-color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color:rgb(4, 7, 32); */
+    background-color:white;
+    min-height: 95vh;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    min-height: 5vh;
+    background-color:white;
+    color: gray;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-top: solid 1px rgba(240, 240, 240, 1);
+}
+
+.nav-bar {
+    display: grid;
+    height: 20vh;
+    grid-auto-flow: column;
+    color: black;
+    background-color:white;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav-bar h1{
+    font-size: 5vh;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin:0;
+}
+.nav-bar h3{
+    font-size: 2vh;
+    font-weight: 200;
+}
+.nav-bar p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vh;
+
+}
+.nav-bar .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .center {
+    grid-column: auto / span 5;
+    flex-direction: column;
+    
+}
+
+h1, h2, h3, .title {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+.contents-container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height:100%;
+    margin-top: 20vh;
+    align-self: center;
+    gap:15px;
+}
+
+.contents-container .title {
+    display: flex;
+    justify-content: center;
+}
+
+.contents-container .contents {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 85vw;
+    height: 60vh;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-self: center;
+    border-top: solid 1px rgba(240, 240, 240, 1);
+    margin-top: 5vh;
+}
+
+.contents-container .picture {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contents-container .picture img {
+    max-height: 70vh;
+    height: auto;
+    width: auto;
+}
+/* /* 
+.contents-container .title,
+.article-container .title {
+    /* font-weight: 600; */
+
+
+.contents-container .title {
+    font-size: 8vh;
+}
+
+.contents-container .contents .articlePreview{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 15px;
+    grid-template-rows: 0.2fr 1fr;
+}
+.contents-container .contents .articlePreview .previewPicture{
+    grid-row: span 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contents-container .contents .articlePreview .previewTitle p{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:gray;
+    font-weight: 600;
+}
+.contents-container .contents .articlePreview .previewAuthor{
+    text-align: center !important;
+    font-size: medium !important;
+    margin-top: 0 !important;
+    margin-bottom: unset !important;
+    font-weight: 500 !important;
+}
+.contents-container .contents .articlePreview .previewContent p{
+    color:gray;
+    border-right: solid 1px rgba(240, 240, 240, 1);
+    margin: 0;
+}
+.contents-container .contents .articlePreview #previewPic1{
+    background-image: url("Images/Nicole_experience_machine.PNG");
+}
+.contents-container .contents .articlePreview #previewPic2{
+    background-image: url("Images/Karis_Doctrine_of_Double.png");
+}
+.contents-container .contents .articlePreview #previewPic3{
+    background-image: url("Images/Vienna_essay_simulationvsreality.png");
+}
+.contents-container .contents .articlePreview #previewPic4{
+    background-image: url("Images/Max_essay_Subjectvsethics.png");
+}
+.contents-container .contents .articlePreview #previewPic5{
+    background-image: url("Images/Deniz_essay_ligotti.png");
+}
+
+.textLink {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    color: gray;
+    text-underline-offset: 2px;
+}
+
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height:100%;
+    margin-top: 20vh;
+    align-self: center;
+    gap:15px;
+}
+
+.article-container .title {
+    font-size: 6vh;
+}
+
+.article-container .text {
+    text-align: justify;
+    font-size: large;
+}
+
+bold, .bold {
+    font-weight: 800;
+}
+
+.article-container .authorAttr {
+    padding-bottom: 10px;
+}
+
+italic, .italic {
+    font-style: italic;
+}
+
+.footnote {
+    font-size: small !important;
+    cursor: pointer;
+}
+
+superscript {
+    font-variant-position: super;
+}
+
+.footnoteBorder {
+    border-top: 2px solid darkgray;
+}
+
+.footnoteLink {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.floatingBar {
+    position: fixed;
+    bottom: 7vh;
+    right: 10px;
+    width: 15vw;
+    background-color: white;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 7px 0px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.floatingBar p {
+    margin: 0;
+}
+
+.floatingBar a:hover {
+    text-decoration: underline;
+    font-size: medium;
+    cursor: pointer;
+}

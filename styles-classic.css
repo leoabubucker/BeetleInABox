@@ -1,0 +1,317 @@
+/* Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.title {
+    font-family: "Old Standard TT", serif;
+    font-style: normal;
+}
+
+.text {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 95vh;
+}
+
+.header {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1.8fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 0.7fr 0.1fr;
+    width: 94vw;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.header .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .center {
+    font-weight: 600;
+    font-size: 8vh;
+}
+
+.header .left-side,
+.header .right-side,
+.header .center-bottom {
+    font-weight: 100;
+    font-size: 4vh;
+}
+
+.border {
+    height: 100%;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+}
+
+.header .center-bottom {
+    grid-column: span 3;
+}
+
+.contents-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    width: 70vw;
+    margin-top: 4vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.contents-container .title {
+    display: flex;
+    justify-content: left;
+}
+
+.contents-container .contents {
+    display: flex;
+    justify-content: left;
+}
+
+.contents-container .picture {
+    grid-row: span 2;
+    display: flex;
+    justify-content: left;
+
+}
+
+.contents-container .picture img {
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+}
+
+.contents-container .title,
+.article-container .title {
+    font-weight: 600;
+}
+
+.contents-container .title {
+    font-size: 8vh;
+}
+
+subheader {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.link {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+
+.sectionBorder {
+    margin-top: 3vh;
+    height: 1vh;
+    margin-bottom: 3vh;
+}
+
+.previews-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    margin-top: 4vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    row-gap: 20px;
+}
+
+.previews-container .item {
+    height: 50vh;
+}
+
+.previews-container .preview-content {
+    display: grid;
+    grid-template-rows: 0.3fr 0.05fr 2.5fr;
+    grid-template-columns: 0.1fr repeat(5, 0.5fr) 0.1fr;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.preview-content .previewInfo {
+    padding-top: 10px;
+    grid-row: 1;
+    grid-column: 2 / span 5;
+}
+
+.preview-content .previewTitle {
+    font-size: 3vh;
+}
+
+.preview-content .previewBorder {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.preview-content .previewText {
+    grid-row: 3;
+    grid-column: 2 / span 5;
+    font-size: larger;
+    text-align: justify;
+}
+
+.previews-container .preview-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.previews-container #previewImg1 {
+    background-image: url("Images/Nicole_experience_machine.PNG");
+}
+
+.previews-container #previewImg2 {
+    background-image: url("Images/Karis_Doctrine_of_Double.png");
+}
+
+.previews-container #previewImg3 {
+    background-image: url("Images/Vienna_essay_simulationvsreality.png");
+}
+
+.previews-container #previewImg4 {
+    background-image: url("Images/Max_essay_Subjectvsethics.png");
+}
+
+.previews-container #previewImg5 {
+    background-image: url("Images/Deniz_essay_ligotti.png");
+}
+
+/* .previews-container .preview-image #previewImg1{
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+}
+.previews-container .preview-image #previewImg2{
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+}
+.previews-container .preview-image #previewImg3{
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+}
+.previews-container .preview-image #previewImg4{
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+}
+.previews-container .preview-image #previewImg5{
+    max-height: 60vh;
+    height: auto;
+    width: auto;
+} */
+
+.floatingBar {
+    position: fixed;
+    bottom: 6vh;
+    right: 10px;
+    width: 15vw;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 7px 0px;
+    border-radius: 12px;
+}
+
+.floatingBar p {
+    margin: 0;
+}
+
+.floatingBar a:hover {
+    text-decoration: underline;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.contents subheader {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    min-height: 5vh;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.textLink {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 20vw;
+
+}
+
+.article-container .title {
+    font-size: 6vh;
+}
+
+.article-container .text {
+    text-align: justify;
+    font-size: large;
+}
+
+bold {
+    font-weight: 800;
+}
+
+.article-container .authorAttr {
+    padding-bottom: 10px;
+}
+
+italic {
+    font-style: italic;
+}
+
+.footnote {
+    font-size: small !important;
+    cursor: pointer;
+}
+
+superscript {
+    font-variant-position: super;
+}
+
+.footnoteBorder {
+    border-top: 2px solid black;
+}
+
+.footnoteLink {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
