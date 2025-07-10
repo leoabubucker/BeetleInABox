@@ -17,7 +17,7 @@ body {
 
 footer {
     display: flex;
-    min-height: 5vh;
+    height: 12vh;
     background-color:white;
     color: gray;
     justify-content: space-between;
@@ -227,7 +227,7 @@ superscript {
 
 .floatingBar {
     position: fixed;
-    bottom: 7vh;
+    bottom: 13vh;
     right: 10px;
     width: 15vw;
     background-color: white;

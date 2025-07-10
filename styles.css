@@ -176,10 +176,13 @@ body{
 
 footer{
     display: flex;
-    min-height: 5vh;
+    height: 12vh;
     background-color: black;
     color:whitesmoke;
     justify-content: space-between;
     padding-left: 2vw;
     padding-right: 2vw;
+}
+italic{
+    font-style: italic;
 }
