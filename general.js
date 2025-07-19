@@ -50,3 +50,14 @@ function goToElementWithHighlightModern(elementID){
     element.style.fontSize = "unset";
     }, 3000);
 }
+
+function goToElementWithBorderModern(elementID){
+    goToElementModern(elementID);
+    const element = document.getElementById(elementID);
+    element.style.border = "2px dashed black";
+    // element.style.fontSize = "x-large";
+    setTimeout(() => {
+    element.style.border = "unset";
+    // element.style.fontSize = "unset";
+    }, 3000);
+}
