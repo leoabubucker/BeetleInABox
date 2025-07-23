@@ -59,5 +59,5 @@ function goToElementWithBorderModern(elementID){
     setTimeout(() => {
     element.style.border = "unset";
     // element.style.fontSize = "unset";
-    }, 3000);
+    }, 1500);
 }

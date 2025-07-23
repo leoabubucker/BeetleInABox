@@ -55,7 +55,7 @@ footer {
 .nav-bar p {
     font-family: 'Playfair Display', serif;
     /* font-size: 1.5vh; */
-    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+    font-size: clamp(0.4rem, 1.5vw, 1.4rem);
 
 
 }
@@ -168,11 +168,11 @@ subheader {
     text-decoration: none;
     justify-self: center;
     /* font-size: medium !important; */
-    font-size: clamp(0.75rem, 1.5vw, 1.5rem) !important;
+    font-size: clamp(0.70rem, 1.5vw, 1.5rem) !important;
     margin-top: 0 !important;
     margin-bottom: unset !important;
     font-weight: 500 !important;
-    font-family: "Lora", serif;
+    font-family: "Vidaloka", serif;
 }
 .contents-container .contents .articlePreview .previewAuthor:hover{
     cursor: pointer;
@@ -182,7 +182,7 @@ subheader {
     color: #1a1a1a;
     /* border-right: solid 1px rgba(240, 240, 240, 1); */
     margin: 0;
-        font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+        font-size: clamp(0.5rem, 1.2vw, 1.25rem);
         font-family: "Lora", serif;
 
 }
@@ -321,7 +321,6 @@ subheader {
     font-weight: 500;
     /* font-size: xx-large; */
     font-size: clamp(1rem, 2.5vw, 2rem);
-font-family: "Vidaloka", serif;
     cursor: pointer;
 }
 
