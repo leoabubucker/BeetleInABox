@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -270,9 +272,10 @@ italic,
     text-indent: 0 !important;
 }
   .footnote::before {
-    content: '↩ ';
+    content: '\21A9';
     color: #474646;
     font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
   }
 superscript {
     font-variant-position: super;
