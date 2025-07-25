@@ -48,15 +48,16 @@ footer {
 }
 
 .nav-bar h3 {
-    font-size: 2vh;
+    /* font-size: 2vh; */
+    font-size: clamp(0.9rem, 1.5vw, 2vh);
     font-weight: 200;
 }
 
 .nav-bar p {
     font-family: 'Playfair Display', serif;
     /* font-size: 1.5vh; */
-    font-size: clamp(0.4rem, 1.5vw, 1.4rem);
-
+    /* font-size: clamp(0.4rem, 1.5vw, 1.4rem); */
+    font-size: clamp(0.6rem, 1.5vw, 1.5vh);
 
 }
 
@@ -219,7 +220,7 @@ subheader {
 .article-container {
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 37.5vw;
     height: 100%;
     margin-top: 20vh;
     align-self: center;
