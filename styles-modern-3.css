@@ -58,6 +58,7 @@ footer {
     /* font-size: 1.5vh; */
     /* font-size: clamp(0.4rem, 1.5vw, 1.4rem); */
     font-size: clamp(0.6rem, 1.5vw, 1.5vh);
+    text-align: center;
 
 }
 
@@ -268,7 +269,11 @@ italic,
     cursor: pointer;
     text-indent: 0 !important;
 }
-
+  .footnote::before {
+    content: '↩ ';
+    color: #474646;
+    font-size: 1em;
+  }
 superscript {
     font-variant-position: super;
 }
