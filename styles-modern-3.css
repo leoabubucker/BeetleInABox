@@ -154,8 +154,10 @@ subheader {
     background-position: center;
 }
 
-.contents-container .contents .articlePreview .previewTitle p {
-    text-align: center;
+.contents-container .contents .articlePreview .previewTitle a {
+    display: flex;
+    align-self: center;
+    justify-self: center;
     /* font-size: large; */
         font-size: clamp(0.75rem, 1.5vw, 2rem);
 
@@ -164,6 +166,7 @@ subheader {
     color: #1a1a1a;
     font-weight: 500;
     font-family: "Vidaloka", serif;
+    text-decoration: none;
 }
 
 .contents-container .contents .articlePreview .previewAuthor {
@@ -293,7 +296,7 @@ superscript {
 
 .floatingBar {
     position: fixed;
-    bottom: 13vh;
+    bottom: 6vh;
     right: 10px;
     min-width: 17vw;
     background-color: white;
