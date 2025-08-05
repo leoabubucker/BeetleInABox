@@ -158,6 +158,7 @@ subheader {
     display: flex;
     align-self: center;
     justify-self: center;
+    text-align: center;
     /* font-size: large; */
         font-size: clamp(0.75rem, 1.5vw, 2rem);
 
