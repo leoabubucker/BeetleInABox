@@ -244,6 +244,8 @@ subheader {
     /* font-size: large; */
     font-size: clamp(0.75rem, 1.5vw, 1.5rem);
     text-indent: 1em;
+    hyphens: auto;
+    hyphenate-limit-chars: 7 2 3;
 }
 
 bold,
