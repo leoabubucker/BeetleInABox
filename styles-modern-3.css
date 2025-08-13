@@ -59,7 +59,7 @@ footer {
     font-family: 'Playfair Display', serif;
     /* font-size: 1.5vh; */
     /* font-size: clamp(0.4rem, 1.5vw, 1.4rem); */
-    font-size: clamp(0.6rem, 1.5vw, 1.5vh);
+    font-size: clamp(0.8rem, 1.5vw, 1.7vh);
     text-align: center;
 
 }
@@ -166,7 +166,8 @@ subheader {
     margin-top: 5px;
     color: #1a1a1a;
     font-weight: 500;
-    font-family: "Vidaloka", serif;
+    font-family: 'Playfair Display', serif;
+    /* font-family: "Vidaloka", serif; */
     text-decoration: none;
 }
 
@@ -180,7 +181,7 @@ subheader {
     margin-top: 0 !important;
     margin-bottom: unset !important;
     font-weight: 500 !important;
-    font-family: "Vidaloka", serif;
+    /* font-family: "Vidaloka", serif; */
 }
 .contents-container .contents .articlePreview .previewAuthor:hover{
     cursor: pointer;
@@ -191,7 +192,7 @@ subheader {
     /* border-right: solid 1px rgba(240, 240, 240, 1); */
     margin: 0;
         font-size: clamp(0.5rem, 1.2vw, 1.25rem);
-        font-family: "Lora", serif;
+        /* font-family: "Lora", serif; */
 
 }
 
