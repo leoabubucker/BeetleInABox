@@ -1,3 +1,17 @@
+/* 
+COPYRIGHT NOTICE:
+
+Code
+----
+Website Code © Leo Abubucker (Lyka) 2025-Present. All Rights Reserved.
+This code may not be copied, modified, or distributed without explicit permission from Leo Abubucker.
+
+Content
+-------
+Newspaper articles, images, and editorial content are © Beetle in a Box 2025-Present. All Rights Reserved.
+This content may not be copied, modified, or distributed without explicit permission from Beetle in a Box.
+ */
+
 function toggleMenu(){
     menu = document.getElementById('issuesMenu');
     if(menu.style.display == 'flex'){

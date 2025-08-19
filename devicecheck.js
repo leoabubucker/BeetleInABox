@@ -1,3 +1,17 @@
+/* 
+COPYRIGHT NOTICE:
+
+Code
+----
+Website Code © Leo Abubucker (Lyka) 2025-Present. All Rights Reserved.
+This code may not be copied, modified, or distributed without explicit permission from Leo Abubucker.
+
+Content
+-------
+Newspaper articles, images, and editorial content are © Beetle in a Box 2025-Present. All Rights Reserved.
+This content may not be copied, modified, or distributed without explicit permission from Beetle in a Box.
+ */
+
 const userAgent = navigator.userAgent.toLowerCase();
 var isMobile = /iPhone|Android/i.test(navigator.userAgent);
 const isTablet = /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(userAgent);
