@@ -40,6 +40,11 @@ footer {
     width: 100vw;
     cursor: pointer;
     z-index: 1;
+    /* Testing Code Start - Logo Far Right, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    
+    /* Testing Code End - Logo Far Right */
 }
 
 .nav-bar h1 {
@@ -71,10 +76,48 @@ footer {
 }
 
 .nav-bar .center {
-    grid-column: auto / span 5;
-    flex-direction: column;
+    /* Testing Code Start - Logo Next To Title REMOVE THIS FOR TEST, ADD FOR NORMAL*/
+
+    grid-column: auto / span 5; 
+    flex-direction: column; 
+
+    /* Testing Code End - Logo Next To Title */
+
+    /* Testing Code Start - Logo Next To Title ADD THIS FOR TEST, REMOVE FOR NORMAL*/
+
+        /* gap: 20px; */
+
+    /* Testing Code End - Logo Next To Title */
+
 
 }
+
+/* Testing Code Start - Logo Next To Title, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+/* .nav-bar .center img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    max-width: 10%;
+}  */
+
+/* Testing Code End - Logo Next To Title */
+
+
+/* Testing Code Start - Logo Far Right, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+/* .nav-bar .left-side{
+    flex-direction: column;
+}
+
+.nav-bar .right-side img{
+    width: 25%;
+    height: auto;
+    object-fit: contain; /* optional */
+    /* max-width: 25%;
+}  */
+
+/* Testing Code End - Logo Far Right */
 
 h1,
 h2,
@@ -131,10 +174,18 @@ subheader {
     max-width: 100%;
 }
 
-.contents-container .middle p {
+.contents-container .middle div {
     justify-self: center;
 }
 
+
+.contents-container .middle div ol li::marker{
+    font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    /* font-size: xx-large; */
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    color: #000000;
+}
 .contents-container .contents .articlePreview {
     /* border: 1px solid black; */
     display: grid;
@@ -179,7 +230,7 @@ subheader {
     /* font-size: medium !important; */
     font-size: clamp(0.50rem, 1.2vw, 1.2rem) !important;
     margin-top: 0 !important;
-    margin-bottom: unset !important;
+    /* margin-bottom: unset !important; */
     font-weight: 500 !important;
     /* font-family: "Vidaloka", serif; */
 }
