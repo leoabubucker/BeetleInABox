@@ -1,0 +1,161 @@
+/* 
+COPYRIGHT NOTICE:
+
+Code
+----
+Website Code © Leo Abubucker (Lyka) 2025-Present. All Rights Reserved.
+This code may not be copied, modified, or distributed without explicit permission from Leo Abubucker.
+
+Content
+-------
+Newspaper articles, images, and editorial content are © Beetle in a Box 2025-Present. All Rights Reserved.
+This content may not be copied, modified, or distributed without explicit permission from Beetle in a Box.
+ */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Source Serif 4', serif;
+    color: #1a1a1a;
+    background-color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 95vh;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    height: 12vh;
+    background-color: white;
+    color: gray;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 10px;
+    border-top: solid 1px rgba(240, 240, 240, 1);
+}
+
+.nav-bar {
+    display: grid;
+    height: 20vh;
+    grid-auto-flow: column;
+    color: black;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    cursor: pointer;
+    z-index: 1;
+    /* Testing Code Start - Logo Far Right, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+    /* grid-template-columns: 1fr 2fr 1fr; */
+
+    /* Testing Code End - Logo Far Right */
+}
+
+.nav-bar h1 {
+    font-size: 5vh;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.nav-bar h3 {
+    font-size: clamp(0.9rem, 1.5vw, 2vh);
+    font-weight: 200;
+}
+
+.nav-bar p {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(0.8rem, 1.5vw, 1.7vh);
+    text-align: center;
+
+}
+
+.nav-bar .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .center {
+    /* Testing Code Start - Logo Next To Title REMOVE THIS FOR TEST, ADD FOR NORMAL*/
+
+    grid-column: auto / span 5; 
+    flex-direction: column; 
+
+    /* Testing Code End - Logo Next To Title */
+
+    /* Testing Code Start - Logo Next To Title ADD THIS FOR TEST, REMOVE FOR NORMAL*/
+
+        /* gap: 20px; */
+
+    /* Testing Code End - Logo Next To Title */
+
+
+}
+
+/* Testing Code Start - Logo Next To Title, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+/* .nav-bar .center img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    max-width: 10%;
+}  */
+
+/* Testing Code End - Logo Next To Title */
+
+
+/* Testing Code Start - Logo Far Right, ADD THIS FOR TEST, REMOVE FOR NORMAL */
+
+/* .nav-bar .left-side{
+    flex-direction: column;
+}
+
+.nav-bar .right-side img{
+    width: 25%;
+    height: auto;
+    object-fit: contain; /* optional */
+    /* max-width: 25%;
+}  */
+
+/* Testing Code End - Logo Far Right */
+
+.floatingBar {
+    position: fixed;
+    bottom: 6vh;
+    right: 10px;
+    min-width: 17vw;
+    background-color: white;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 7px 10px;
+    border: 2px solid black;
+    border-radius: 16px;
+    gap: 10px;
+}
+
+.floatingBar p {
+    margin: 0;
+}
+.floatingBar a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.floatingBar a:hover {
+    text-decoration: underline;
+    font-size: medium;
+    cursor: pointer;
+}
+
