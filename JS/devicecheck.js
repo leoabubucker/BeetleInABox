@@ -23,12 +23,11 @@ if (isMobile || isTablet) {
     document.getElementById("cNavTitle").style.fontSize = "2.2vh";
     document.getElementById("cNavTitle").style.fontWeight = "500";
     document.getElementById("cNavTitle").style.letterSpacing = "1px";
-    document.getElementById("nav").style.width = "90vw";  
     for (let index = 0; index < document.getElementsByClassName("previewContainer").length; index++) {
         document.getElementsByClassName("previewContainer")[0].style.width = "95vw";  
     }  
-    document.getElementById("nav").style.marginLeft = "5vw";
-    document.getElementById("nav").style.marginRight = "5vw";
+    document.getElementById("lNav").style.paddingLeft = "5vw";
+    document.getElementById("rNav").style.paddingRight = "5vw";
     document.getElementById("nav").style.columnGap = "2vw";
     for (let index = 0; index < document.getElementsByClassName("previewAuthor").length; index++) {
         document.getElementsByClassName("previewAuthor")[index].style.setProperty("text-decoration", "underline");
