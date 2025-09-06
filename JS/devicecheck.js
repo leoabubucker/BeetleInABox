@@ -49,10 +49,10 @@ else {
 
 if(isTablet){
     for (let index = 0; index < document.getElementsByClassName("previewContentP").length; index++) {
-        document.getElementsByClassName("previewContentP")[index].style.fontSize = "clamp(1rem, 1.2vw, 1.25rem)";
+        document.getElementsByClassName("previewContentP")[index].style.fontSize = "clamp(1.1rem, 1.2vw, 1.25rem)";
     }
-        for (let index = 0; index < document.getElementsByClassName("previewTitleP").length; index++) {
-        document.getElementsByClassName("previewTitleP")[index].style.fontSize = "clamp(1.3rem, 1.5vw, 2rem)";
+        for (let index = 0; index < document.getElementsByClassName("previewTitleA").length; index++) {
+        document.getElementsByClassName("previewTitleA")[index].style.fontSize = "clamp(1.3rem, 1.5vw, 2rem)";
     }   
     
     for (let index = 0; index < document.getElementsByClassName("previewAuthor").length; index++) {
@@ -64,10 +64,10 @@ if(isTablet){
 }
 else if (isMobile){
     for (let index = 0; index < document.getElementsByClassName("previewContentP").length; index++) {
-        document.getElementsByClassName("previewContentP")[index].style.fontSize = "clamp(0.7rem, 1.2vw, 1.25rem)";
+        document.getElementsByClassName("previewContentP")[index].style.fontSize = "clamp(0.8rem, 1.2vw, 1.25rem)";
     }
-    for (let index = 0; index < document.getElementsByClassName("previewTitleP").length; index++) {
-        document.getElementsByClassName("previewTitleP")[index].style.fontSize = "clamp(1rem, 1.5vw, 2rem)";
+    for (let index = 0; index < document.getElementsByClassName("previewTitleA").length; index++) {
+        document.getElementsByClassName("previewTitleA")[index].style.fontSize = "clamp(1rem, 1.5vw, 2rem)";
     }   
 
     for (let index = 0; index < document.getElementsByClassName("previewAuthor").length; index++) {
