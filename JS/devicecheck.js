@@ -23,7 +23,10 @@ if (isMobile || isTablet) {
     document.getElementById("cNavTitle").style.fontSize = "2.2vh";
     document.getElementById("cNavTitle").style.fontWeight = "500";
     document.getElementById("cNavTitle").style.letterSpacing = "1px";
-    document.getElementById("nav").style.width = "90vw";    
+    document.getElementById("nav").style.width = "90vw";  
+    for (let index = 0; index < document.getElementsByClassName("previewContainer").length; index++) {
+        document.getElementsByClassName("previewContainer")[0].style.width = "95vw";  
+    }  
     document.getElementById("nav").style.marginLeft = "5vw";
     document.getElementById("nav").style.marginRight = "5vw";
     document.getElementById("nav").style.columnGap = "2vw";
@@ -37,6 +40,9 @@ if (isMobile || isTablet) {
     for (let index = 0; index < document.getElementsByClassName("authorAttrName").length; index++) {
         document.getElementsByClassName("authorAttrName")[0].style.textDecoration = "underline";
         document.getElementsByClassName("authorAttrName")[0].style.textUnderlineOffset = "2px";
+    } 
+    for (let index = 0; index < document.querySelectorAll(".article-container .text").length; index++) {
+        document.querySelectorAll(".article-container .text")[index].style.fontSize = "clamp(1.2rem, 1.5vw, 2rem)";
     } 
 }
 else {

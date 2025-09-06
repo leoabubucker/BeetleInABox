@@ -89,6 +89,10 @@ footer {
     justify-content: center;
 }
 
+.nav-bar .right-side h3{
+    text-align: right;
+}
+
 .nav-bar .center {
     /* Testing Code Start - Logo Next To Title REMOVE THIS FOR TEST, ADD FOR NORMAL*/
 
@@ -309,6 +313,7 @@ subheader {
     text-align: justify;
     /* font-size: large; */
     font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+    /* font-size: clamp(1.2rem, 1.5vw, 2rem); */
     text-indent: 1em;
     hyphens: auto;
     hyphenate-limit-chars: 7 2 3;
