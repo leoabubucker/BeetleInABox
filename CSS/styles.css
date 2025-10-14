@@ -423,6 +423,10 @@ subheader {
     animation: slideFadeIn 1s ease-in forwards;
 }
 
+centered{
+    display: block;
+    text-align: center;
+}
 @keyframes slideFadeIn {
     to {
         opacity: 1;
