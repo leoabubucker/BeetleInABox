@@ -1,17 +1,17 @@
 Website Code
 ------------
 All source code in this repository (including but not limited to HTML, CSS,
-and JavaScript) is © Leo Abubucker (Lyka) 2025-Present. All rights reserved.
+and JavaScript) is © Leo Abubucker 2025-Present. All rights reserved.
 The code may not be copied, modified, distributed, or used without explicit
 written permission from Leo Abubucker.
 
 Content
 -------
 Newspaper articles, images, and editorial content are © Beetle in a Box 2025-Present. All Rights Reserved.
-This content may not be copied, modified, or distributed without explicit permission from Beetle in a Box.
+This content may not be copied, modified, or distributed without explicit written permission from Beetle in a Box.
 
 Summary
 -------
-- Code ownership: Leo Abubucker (Lyka)
+- Code ownership: Leo Abubucker
 - Content ownership: Beetle in a Box
 - Neither the website code nor the content may be copied, reproduced, or redistributed without prior written consent.

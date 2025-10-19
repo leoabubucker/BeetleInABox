@@ -3,7 +3,7 @@ COPYRIGHT NOTICE:
 
 Code
 ----
-Website Code © Leo Abubucker (Lyka) 2025-Present. All Rights Reserved.
+Website Code © Leo Abubucker 2025-Present. All Rights Reserved.
 This code may not be copied, modified, or distributed without explicit permission from Leo Abubucker.
 
 Content
